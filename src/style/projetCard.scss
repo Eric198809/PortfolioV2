@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: end;
     width: 30%; /* Largeur de la carte */
-    height: 500px; /* Hauteur de la carte */
+    height: 300px; /* Hauteur de la carte */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* Assure que l'image remplit le conteneur */
@@ -15,6 +15,7 @@
   
     &:hover {
       transform: scale(1.03); /* Zoom de l'image au survol */
+      border: solid 1px var(--secondary);
     }
 
     &::before{
@@ -62,7 +63,8 @@
 
 @media screen and (max-width: 800px) {
   .projet_card{
-    width: 100%;
+    width: 90%;
+    height: 300px;
     
   }
 }

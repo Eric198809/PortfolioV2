@@ -5,8 +5,8 @@ const ProjetCard = ({projet}) => {
     <>
       <div key={projet.id} className="projet_card" style={{backgroundImage:`url(${projet.image})`}}>
     <div className="content_projet">
-    <h4>{projet.titre}</h4>
-    <p>{projet.content}</p>
+    <h3>{projet.titre}</h3>
+    {/* <p>{projet.content}</p> */}
     <div className="stack_projets">
       {projet.imageStack.map((stack , index)=>(
         

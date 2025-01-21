@@ -1,7 +1,7 @@
 <svg width="70px" height="70px" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
   <title>file_type_typescript_official</title>
   <!-- Cercle noir avec une bordure rouge -->
-  <circle cx="35" cy="35" r="33" fill="#051324" stroke="#3178C6" stroke-width="2"/>
+  <circle cx="35" cy="35" r="33" fill="none" stroke="#3178C6" stroke-width="2"/>
   <!-- Contenu existant centré dans le cercle avec très peu de padding -->
   <g transform="translate(11, 11) scale(1.4)">
     <rect x="2" y="2" width="28" height="28" rx="1.312" style="fill:#3178c6"/>
