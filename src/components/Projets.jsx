@@ -23,7 +23,7 @@ const Projets = () => {
           <span className="title_section_line_droite"></span>
         </div>
       {!AllprojetsIsOpen && <div className="projets_container">
-          <h3>Derniers projets</h3>
+          <h4>Derniers projets</h4>
           <div className="projets">
             {projets
               .sort((a, b) => b.id - a.id)

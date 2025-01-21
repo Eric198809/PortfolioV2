@@ -39,11 +39,7 @@ const Header = () => {
           src="/cercleHeadergauche.svg"
           alt="cercle"
         />
-        <img
-          className="cercle_droite"
-          src="/cercleHeaderdroit.svg"
-          alt="cercle"
-        />
+     
         <div className="headers_buttons">
           <div className="bouton">
             <a href="https://www.linkedin.com/in/eric-besson-517763123/">
