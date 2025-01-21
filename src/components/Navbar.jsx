@@ -1,17 +1,13 @@
 import { Link } from "react-router-dom";
-import reactLogo from "../assets/react.svg";
 import "../style/navbar.scss";
 
 function Navbar() {
   return (
-    <nav className="header">
-      <Link to="/">
-        <img src={reactLogo} className="logo react" alt="React logo" />
-      </Link>
-      <ul className="head-menu">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
+    <nav className="navbar">
+      <ul className="nav">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projets">Projet</a></li>
+        <li><a href="#contact"></a>Contact</li>
       </ul>
     </nav>
   );

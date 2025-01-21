@@ -1,21 +1,24 @@
-.header {
-  background-color: #213547;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
+.navbar{
+  display:flex;
+  width: 100%;
+  justify-content: center;
   align-items: center;
-  color: white;
-}
-.head-menu {
-  list-style: none;
-  display: flex;
+  height: 150px;
 
-  li {
-    margin: 10px;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
+  ul{
+    display: flex;
+    gap:50px;
+    list-style: none;
+    cursor: pointer;
   }
 }
+
+
+@media screen and (max-width: 800px) {
+
+   .navbar ul {
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 15px 30px;
+    }
+  }
