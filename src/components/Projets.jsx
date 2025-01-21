@@ -1,4 +1,4 @@
-import projets from "../json/Projets.json";
+import projets from "../json/projets.json";
 import "../style/projets.scss";
 import ProjetCard from "./ProjetCard";
 import { useState } from "react";
