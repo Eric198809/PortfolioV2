@@ -1,0 +1,26 @@
+.footer_container{
+  
+  
+}
+
+.footer_coordonnees{
+  display: flex;
+  justify-content: space-around;
+
+  .footer_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    background-color: var(--secondary);
+    height: 200px;
+    width: 20%;
+
+    p{
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+}
