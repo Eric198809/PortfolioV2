@@ -39,7 +39,7 @@ const Header = () => {
           src="/cercleHeadergauche.svg"
           alt="cercle"
         />
-     
+       
         <div className="headers_buttons">
           <div className="bouton">
             <a href="https://www.linkedin.com/in/eric-besson-517763123/">

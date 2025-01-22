@@ -11,35 +11,30 @@ const Footer = () => {
         </div>
         <div className="footer_container">
           <div className="footer_coordonnees">
-        
-          <div className="footer_info">
-            <img src="/icons/position.svg" alt="position icon" />
-            <p>Lyon | Beaujolais | Villefranche Sur Saone</p>
+            <div className="footer_info">
+              <img src="/icons/position.svg" alt="position icon" />
+              <p>Lyon | Beaujolais | Villefranche Sur Saone</p>
+            </div>
+            <div className="footer_info">
+              <img src="/icons/phone.svg" alt="phone icon" />
+              <p>06.77.15.85.85</p>
+            </div>
+            <div className="footer_info">
+              <img src="/icons/email.svg" alt="email icon" />
+              <p>ebesson180988@gmail.com</p>
+            </div>
           </div>
-          <div className="footer_info">
-            <img src="/icons/phone.svg" alt="phone icon" />
-            <p>06.77.15.85.85</p>
-          </div>
-          <div className="footer_info">
-            <img src="/icons/email.svg" alt="email icon" />
-            <p>ebesson180988@gmail.com</p>
-          </div>
-          </div>
-          <div className="footer_réseaux">
+          <div className="footer_reseaux">
             <a href="https://www.linkedin.com/in/eric-besson-517763123/">
-              {" "}
-              Linkedin
-            </a>
-            <a href="https://www.linkedin.com/in/">
-              <img src="/icons/linkedin.svg" alt="linkedin" />
+              <img src="/icons/linkedin.svg" alt="Logo linkedin" />
             </a>
             <a href="https://www.linkedin.com/in/eric-besson-517763123/">
               {" "}
-              Github
+              <img src="/icons/github.svg" alt="Logo Github" />
             </a>
-            <img src="/icons/github.svg" alt="Logo Github" />
           </div>
         </div>
+       
       </footer>
     </>
   );
