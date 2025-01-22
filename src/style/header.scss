@@ -26,9 +26,17 @@ header {
     top: -150px;
     z-index: -100;
   }
+  
 }
 
 @media screen and (max-width: 800px) {
-  .alternative_header_title {
-  }
+  .headers_buttons {
+    flex-direction: column;
+  
+  .bouton {
+    margin: 10px 0px;
+
+  } 
+  
+}
 }

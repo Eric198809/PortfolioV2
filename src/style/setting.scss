@@ -95,22 +95,23 @@ body {
     font-size: 16px;
     color: #ffffff;
     background: linear-gradient(to right, #575eff 50%, #051324 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
+    background-size: 200% 100%; 
+    background-position: right bottom; 
     border: solid 1px var(--secondary);
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.3s ease-out;
-
-    .bouton:hover {
-      background-position: left bottom;
-      color: #fff;
-    }
-
-    .bouton:focus {
-      outline: none;
-    }
+    transition: all 0.3s ease-out; 
   }
+  
+  .bouton:hover {
+    background-position: left bottom;  
+    color: #ffffff; 
+  }
+  
+  .bouton:focus {
+    outline: none; 
+  }
+  
 }
 
 @media screen and (max-width: 800px) {

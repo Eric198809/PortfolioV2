@@ -71,17 +71,28 @@
   transform: scale(1.1);
 }
 
-
-
 @media screen and (max-width: 800px) {
   .skills-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
 
-    .category {
-      width: 100%;
+  .category {
+    width: 100%;
+
+    ul {
+      gap: 30px;
+
+      li {
+        width: 25%;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
     }
   }
 }

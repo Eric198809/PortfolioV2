@@ -11,7 +11,7 @@ const Projets = () => {
     "TypeScript",
     "PHP (wordpress)",
   ];
-  const [selectedMenu, setSelectedMenu] = useState("");
+  const [selectedMenu, setSelectedMenu] = useState("React");
   const[AllprojetsIsOpen, setAllprojetsIsOpen] = useState(false)
 
   return (
