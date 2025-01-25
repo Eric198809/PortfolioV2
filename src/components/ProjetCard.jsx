@@ -1,12 +1,19 @@
+import { useState } from "react";
 import "../style/projetCard.scss";
+import ModalCardDetails from "./ModalCardDetails";
 
 const ProjetCard = ({projet}) => {
+const[modalDetailIsOpen, setModalDetailsIsOpen]= useState(false);
+
+  
   return (
     <>
       <div key={projet.id} className="projet_card" style={{backgroundImage:`url(${projet.image})`}}>
+        <button type="bouton" className="open_modal_card_details" onClick={(()=> setModalDetailsIsOpen(true))}> <img src="/icons/plus.svg" alt="icone plus" />
+        </button>
+
     <div className="content_projet">
     <h3>{projet.titre}</h3>
-    {/* <p>{projet.content}</p> */}
     <div className="stack_projets">
       {projet.imageStack.map((stack , index)=>(
         
@@ -22,7 +29,7 @@ const ProjetCard = ({projet}) => {
 </div>
 </div>
 </div>
-      
+{ modalDetailIsOpen &&<ModalCardDetails setModalDetailsIsOpen = {setModalDetailsIsOpen} modalDetailIsOpen= {modalDetailIsOpen} projet={projet}/>}
     </>
   );
 };

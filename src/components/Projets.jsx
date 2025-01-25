@@ -34,7 +34,7 @@ const Projets = () => {
           </div>
         </div>}
         <div className="all_projets_section">
-         {AllprojetsIsOpen? <button className="bouton" onClick={()=>setAllprojetsIsOpen(!AllprojetsIsOpen)}>Masquer les projets</button> : <button className="bouton" onClick={()=>setAllprojetsIsOpen(!AllprojetsIsOpen)}>Voir tous les projets</button>}
+         {AllprojetsIsOpen? <a href="#projets" className="bouton" onClick={()=>setAllprojetsIsOpen(!AllprojetsIsOpen)}>Masquer les projets</a> : <button className="bouton" onClick={()=>setAllprojetsIsOpen(!AllprojetsIsOpen)}>Voir tous les projets</button>}
        {AllprojetsIsOpen&& <div className="container_projets_menu">
         <ul>
           {projetsMenu.map((menu, index) => (
