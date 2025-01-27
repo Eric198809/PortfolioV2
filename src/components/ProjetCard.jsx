@@ -23,9 +23,9 @@ const[modalDetailIsOpen, setModalDetailsIsOpen]= useState(false);
    <div className="projet_card_bouton">
     {projet.website && <a className="bouton" href={projet.website}>Voir le site
     <img style={{width: "15px"}} src="/icons/logoworld.svg" alt="logo world" /></a>}
-    <a  className="bouton"href={projet.githubLink}>Voir le Github
+    {projet.githubLink&&<a  className="bouton"href={projet.githubLink}>Voir le Github
       <img style={{width: "20px"}} src="/icons/github2.svg" alt="logo github" />
-    </a>
+    </a>}
 </div>
 </div>
 </div>
